@@ -1,8 +1,9 @@
-def ReadLines(fileName):
-    f = open(fileName)
+def read_lines(file_name):
+    f = open(file_name)
     l = f.readlines()
 
     for lines in l:
         print(lines)
 
-ReadLines("DemoText.txt")
+
+read_lines("DemoText.txt")
